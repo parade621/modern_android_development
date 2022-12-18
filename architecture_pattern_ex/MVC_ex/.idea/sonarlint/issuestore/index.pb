@@ -1,0 +1,27 @@
+
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+y
+Iapp/src/main/java/com/parade621/mvc_ex/mvc/controller/MvcLoginActivity.kt,7\0\70f4ab23bd1adafc7f8e334a3639b30518021a6b
+h
+8app/src/main/java/com/parade621/mvc_ex/mvp/model/User.kt,6\f\6ffa14d859b057eacab6af36b676b1b6f0cbcbc6
+v
+Fapp/src/main/java/com/parade621/mvc_ex/mvp/presenter/LoginPresenter.kt,e\f\ef73f8190aaf6fbefb1da2721f4daee0bda25790
+z
+Japp/src/main/java/com/parade621/mvc_ex/mvp/presenter/LoginPresenterImpl.kt,f\0\f089f4f5141b93c62a816bdc031e46fb88e6b769
+o
+?app/src/main/java/com/parade621/mvc_ex/mvp/view/MvpLoginView.kt,1\c\1cf1dffb64b8171061ccc02757be1c3c77b40b19
+s
+Capp/src/main/java/com/parade621/mvc_ex/mvp/view/MvpLoginActivity.kt,3\b\3bb1338098b532333774c5e95aea2dd2e70a656c
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+f
+6app/src/main/java/com/parade621/mvc_ex/MainActivity.kt,9\9\99afd7b33dd97d73e06ee06cf8f027e9e6be2c3a
+h
+8app/src/main/java/com/parade621/mvc_ex/mvc/model/User.kt,1\a\1a642055d8aa6c8c885f48aa87a444ca8a03f2a7
+i
+9app/src/main/java/com/parade621/mvc_ex/mvvm/model/User.kt,4\a\4ad7f3101ee30615154c09750258c059d4fd2b3d
+w
+Gapp/src/main/java/com/parade621/mvc_ex/mvvm/viewmodel/LoginViewModel.kt,8\6\867f3880b9ca2e771a0560911e03df879903a1de
+u
+Eapp/src/main/java/com/parade621/mvc_ex/mvvm/view/MvvmLoginActivity.kt,f\4\f42f0f951445c77c666e4919bfa2ed47138bf0df

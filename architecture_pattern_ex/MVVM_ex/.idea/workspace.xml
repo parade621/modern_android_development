@@ -36,8 +36,8 @@
       <list>
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -60,6 +60,9 @@
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.parade621.mvvm_ex.presenter.lotto" />
+    </key>
+    <key name="android.template.-2022792980">
+      <recent name="com.parade621.mvvm_ex.edittext" />
     </key>
   </component>
   <component name="RunManager">

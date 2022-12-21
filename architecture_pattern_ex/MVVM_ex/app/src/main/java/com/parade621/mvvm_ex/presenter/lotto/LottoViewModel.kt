@@ -17,7 +17,8 @@ class LottoViewModel : BaseObservable() {
      * 로또 정보 조회
      * @param drwNo 회차
      */
-    fun getLottoInfo(drwNo:Int){
+    fun getLottoInfo(drwNoInfo:String){
+        val drwNo = drwNoInfo.toInt()
         LottoRepository.getLottoInfo(drwNo, object : LottoRepository.GetDataCallback<LottoEntity> {
             override fun onSuccess(data: LottoEntity?) {
                 data?.let {

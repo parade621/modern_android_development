@@ -12,7 +12,6 @@ class LottoActivity : AppCompatActivity() {
 
     private lateinit var binding:ActivityLottoBinding
     private lateinit var viewModel : LottoViewModel
-    private lateinit var viewModelFactory: LottoViewModelFactory
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +19,6 @@ class LottoActivity : AppCompatActivity() {
 
         binding.run {
             viewmodel = LottoViewModel()
-            drwNo=1000
         }
     }
 }

@@ -7,9 +7,6 @@
         <variable
             name="viewmodel"
             type="com.parade621.mvvm_ex.presenter.lotto.LottoViewModel" />
-        <variable
-            name="drwNo"
-            type="Integer" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -17,12 +14,11 @@
         android:layout_height="match_parent">
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/get_drwNo_from_user"
+            android:id="@+id/set_Text"
             android:hint="회차 입력"
             android:gravity="center"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:visibility="invisible"
             app:layout_constraintBottom_toTopOf="@+id/button_lotto_info"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +31,7 @@
             android:layout_marginLeft="18dp"
             android:layout_marginTop="100dp"
             android:layout_marginRight="18dp"
-            android:onClick="@{() -> viewmodel.getLottoInfo(drwNo)}"
+            android:onClick="@{() -> viewmodel.getLottoInfo(setText.getText().toString())}"
             android:text="로또 정보 조회하기"
             android:textColor="@android:color/black"
             android:textSize="18dp"

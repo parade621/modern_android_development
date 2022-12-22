@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(binding.root) // 이를 통해서 activity_main.xml의 가장 높은 부분의 참조를 가져온다.
 
         setSupportActionBar(binding.toolbar)
 

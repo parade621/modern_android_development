@@ -11,4 +11,4 @@
 ## 2. LiveData를 사용한 ViewModel 연습.
 
 <img width="40%" height="30%" src="https://user-images.githubusercontent.com/36446270/209418495-d9d1e08c-1ef1-41fe-bf02-8f157da50a24.gif"/>
-[liveData를 적용한 ViewModel 예제](https://github.com/parade621/modern_android_development/commit/7024caa5d3298b4a2211faa29260453b028fd50b)
+[liveData를 적용한 ViewModel 예제] (https://github.com/parade621/modern_android_development/commit/7024caa5d3298b4a2211faa29260453b028fd50b)

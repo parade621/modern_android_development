@@ -42,9 +42,17 @@ class MainActivity : AppCompatActivity() {
         binding.textView.text = myViewModel.counter.toString()
 
         binding.btn.setOnClickListener {
-            myViewModel.counter += 1
-            binding.textView.text = myViewModel.counter.toString()
-            myViewModel.saveState()
+            //myViewModel.counter += 1
+            //binding.textView.text = myViewModel.counter.toString()
+            //myViewModel.saveState()
+            // 이 부분을 liveData 사용을 위한 Observer로직으로 구현한다.
+            myViewModel.liveCounter.value = myViewModel.liveCounter.value?.plus(1)
         }
+        // UI를 표시하는 presenter 로직
+        // liveData를 사용하게 되면, 더 이상 버튼의 이벤트 리스너에 둘 필요가 없다.
+        myViewModel.modifiedCounter.observe(this){ counter->
+            binding.textView.text = counter.toString()
+        }
+
     }
 }

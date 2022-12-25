@@ -9,6 +9,7 @@ import androidx.savedstate.SavedStateRegistryOwner
 @Suppress("UNCHECKED_CAST")
 class MyViewModelFactory(
     private val counter:Int,
+    private val repositoryImpl: MyRepositoryImpl,
     owner: SavedStateRegistryOwner,
     defaultArgs: Bundle? = null,
 ):AbstractSavedStateViewModelFactory(owner, defaultArgs) {
@@ -18,7 +19,7 @@ class MyViewModelFactory(
         handler: SavedStateHandle
     ):T{
         if(modelClass.isAssignableFrom(MyViewModel::class.java)){
-            return MyViewModel(counter,handler) as T
+            return MyViewModel(counter,handler,repositoryImpl) as T
         }
         throw IllegalArgumentException("ViewModel class not found")
     }

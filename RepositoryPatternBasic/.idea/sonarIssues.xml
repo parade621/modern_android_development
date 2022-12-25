@@ -53,7 +53,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/parade621/repositoryPatternBasic/MyRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/parade621/repositoryPatternBasic/MyRepositoryImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/parade621/repositoryPatternBasic/MyViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/parade621/repositoryPatternBasic/MyViewModelFactory.kt">
           <value>
             <set />
           </value>

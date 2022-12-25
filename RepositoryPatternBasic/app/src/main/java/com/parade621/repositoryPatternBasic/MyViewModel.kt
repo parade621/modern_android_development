@@ -2,7 +2,13 @@ package com.parade621.repositoryPatternBasic
 
 import androidx.lifecycle.*
 
-class MyViewModel( _counter : Int, private val savedStateHandle: SavedStateHandle):ViewModel() {
+class MyViewModel( _counter : Int, private val savedStateHandle: SavedStateHandle, private val repositoryImpl: MyRepositoryImpl):ViewModel() {
+
+    val counterFromRepository : LiveData<Int> = repositoryImpl.getCounter()
+
+    fun increaseCounter(){
+        repositoryImpl.increaseCounter()
+    }
 
     val liveCounter:MutableLiveData<Int> = MutableLiveData(_counter)
     val modifiedCounter: LiveData<String> = Transformations.map(liveCounter){counter->

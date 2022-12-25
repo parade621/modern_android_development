@@ -15,7 +15,10 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        val factory = MyViewModelFactory(10, this)
+        val myRepositoryImpl = MyRepositoryImpl(10)
+
+
+        val factory = MyViewModelFactory(10, myRepositoryImpl, this)
         val myViewModel : MyViewModel by viewModels { factory }
 
         binding.lifecycleOwner= this
@@ -24,7 +27,8 @@ class MainActivity : AppCompatActivity() {
         binding.textView.text = myViewModel.counter.toString()
 
         binding.btn.setOnClickListener {
-            myViewModel.liveCounter.value = myViewModel.liveCounter.value?.plus(1)
+            //myViewModel.liveCounter.value = myViewModel.liveCounter.value?.plus(1)
+            myViewModel.increaseCounter()
         }
     }
 }

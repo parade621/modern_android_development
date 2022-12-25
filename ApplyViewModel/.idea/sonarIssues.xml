@@ -28,6 +28,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../DataBindingBasic/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DataBindingBasic/app/src/main/java/com/parade621/databindingbasic/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DataBindingBasic/app/src/main/java/com/parade621/databindingbasic/MyViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DataBindingBasic/app/src/main/java/com/parade621/databindingbasic/MyViewModelFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DataBindingBasic/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

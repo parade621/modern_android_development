@@ -10,6 +10,7 @@ class MyViewModel( _counter : Int, private val savedStateHandle: SavedStateHandl
     }
 
     val counter = savedStateHandle.get<Int>(SAVE_STATE_KEY) ?: _counter
+    val hasChecked : MutableLiveData<Boolean> = MutableLiveData<Boolean>(false)
 
     fun saveState(){
         savedStateHandle.set(SAVE_STATE_KEY, counter)

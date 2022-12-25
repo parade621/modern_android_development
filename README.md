@@ -16,4 +16,6 @@
   
 ## 3. DataBinding 연습
 <img width="40%" height="30%" src="https://user-images.githubusercontent.com/36446270/209473282-e1754fb1-dd98-48e2-a57b-34cd5c4881e0.gif"/>
+- Custom Binding Adapter 실습.
+- Two-Way-Data-Binding 실습.
 [DataBinding 예제](https://github.com/parade621/modern_android_development/tree/main/DataBindingBasic)
